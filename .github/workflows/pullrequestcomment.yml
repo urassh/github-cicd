@@ -1,6 +1,6 @@
 name: Comment
 run-name: Comment - @${{ github.actor }}
-on: push
+on: pull_request
 jobs:
     comment:
         runs-on: ubuntu-latest
